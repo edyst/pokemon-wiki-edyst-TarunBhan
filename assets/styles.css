@@ -1,28 +1,4 @@
 
-@media only screen and (max-width: 414px) {
-  tr {width:280px!important; padding:0;}	
-  td {text-align: center!important;}	 
-    }
-media screen and (max-width: 620px) {
-
-  #pokemon-of-the-year-section{
-    padding: 40px 50px;
-  }
-
-  #pokemon-of-the-year-section-grid{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #pokemon-of-the-year-section p {
-    text-align: center;
-  }
-
-
-}
  .texts{
   font-family: Avenir-Next,Roboto,sans-serif;max-width: 250px;
   }
@@ -60,8 +36,8 @@ height:50px;
 .learnmore {
   margin-top:10px;
   border-radius:20px;
-  background-color:#fff
-   padding:200px;
+  background-color:#fff;
+   padding:10px;
   font-size:20px;
   cursor:pointer;
 }
@@ -116,7 +92,7 @@ li a{
   font-size:45px;font-family: Avenir-Next,Roboto,sans-serif;
 }
 .text1{
-  align:center;
+  text-align:center;
   padding:12px;
   max-width:859px;
 margin-left:250px;
@@ -141,7 +117,7 @@ margin-left:250px;
   font-size:26px;
 }
 .cards div{
-align:center;
+text-align:center;
   margin-left:150px;
 }
 h2{
@@ -164,9 +140,7 @@ h4{
   flex-wrap:wrap;
 gap:1rem;
 }
-.texts{
-  
-}
+
 .content{
   margin-top:100px;
 padding:35px;
@@ -759,4 +733,29 @@ h5 {
 .img-stat{
 height:300px;
 width:300px;
+}
+
+@media only screen and (max-width: 414px) {
+  tr {width:280px!important; padding:0;}	
+  td {text-align: center!important;}	 
+    }
+@media screen and (max-width: 620px) {
+
+  #pokemon-of-the-year-section{
+    padding: 40px 50px;
+  }
+
+  #pokemon-of-the-year-section-grid{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #pokemon-of-the-year-section p {
+    text-align: center;
+  }
+
+
 }
